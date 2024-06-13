@@ -1,4 +1,8 @@
-let str = "string"
-str = 5 // Now str is a number
+var ourStr = "I come first. ";
+ourStr += "I come second.";
 
-console.log(str)
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+myStr += " This is the third sentence.";
+
+console.log(myStr);
